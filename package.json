@@ -1,0 +1,33 @@
+{
+  "name": "shift-tip-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "performance": "node scripts/run-performance.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "expo": "~57.0.7",
+    "expo-crypto": "~57.0.1",
+    "expo-document-picker": "~57.0.1",
+    "expo-file-system": "~57.0.1",
+    "expo-secure-store": "~57.0.1",
+    "expo-sharing": "~57.0.6",
+    "expo-sqlite": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-purchases": "^10.4.3",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.4",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "~6.0.3",
+    "vitest": "^4.0.15"
+  }
+}

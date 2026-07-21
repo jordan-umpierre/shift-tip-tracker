@@ -1,0 +1,48 @@
+{
+  "standard": {
+    "warmup": 3,
+    "repetitions": 20,
+    "statistic": "median and p95",
+    "varianceTolerance": "coefficient of variation <= 0.25"
+  },
+  "environment": {
+    "node": "v26.3.0",
+    "os": "Darwin 25.5.0",
+    "arch": "arm64",
+    "cpu": "Apple M2"
+  },
+  "build": {
+    "command": "npm run typecheck",
+    "commit": "8d7c0a8b115d0b7c651264392c1d2ee8394aedca"
+  },
+  "workload": "5,000 synthetic work segments summarized in memory; no personal or financial records",
+  "results": {
+    "samplesMs": [
+      2.9992499999999893,
+      3.278708999999992,
+      3.304124999999999,
+      2.97366599999998,
+      3.030708000000004,
+      3.1366250000000093,
+      3.198832999999979,
+      2.875374999999991,
+      2.881083000000018,
+      2.8440420000000017,
+      2.985041999999993,
+      3.0128330000000005,
+      2.954958000000005,
+      2.9615409999999827,
+      3.0420000000000016,
+      2.965417000000002,
+      2.924416000000008,
+      2.8612919999999917,
+      2.8938339999999982,
+      2.8569579999999632
+    ],
+    "medianMs": 2.97366599999998,
+    "p95Ms": 3.304124999999999,
+    "coefficientOfVariation": 0.043953928057908306,
+    "baselineMedianMs": 3.0104169999999897,
+    "medianChangePercent": 1.2
+  }
+}

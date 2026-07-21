@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Shift & Tip Tracker",
+    "slug": "shift-tip-tracker",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "shifttiptracker",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.jordanumpierre.shifttiptracker" },
+    "android": { "package": "com.jordanumpierre.shifttiptracker" },
+    "plugins": ["expo-sqlite", "expo-secure-store"]
+  }
+}
